@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+    <style>
+        h3 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <h3>Dogs</h3>
+    <user-card name="Rosy" avatar="./img/dog1.jpg">
+        <div slot="city">Odesa</div>
+        <div slot="phone">21-86-06</div>
+    </user-card>
+
+    <user-card name="Jeff" avatar="./img/dog2.jpg">
+        <div slot="city">Kyiv</div>
+        <div slot="phone">45-32-15</div>
+    </user-card>
+    <script src="./userCard.js"></script>
+</body>
+</html>
