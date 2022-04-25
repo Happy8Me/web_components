@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module" src="./userCard.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lit</title>
+    <style>
+        h3 {
+            color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <h3>Web components Lit</h3>
+    <user-card name="Rosy" avatar="../img/dog1.jpg">
+        <div slot="city">Odesa</div>
+        <div slot="phone">21-86-06</div>
+    </user-card>
+
+    <user-card name="Jeff" avatar="../img/dog2.jpg">
+        <div slot="city">Kyiv</div>
+        <div slot="phone">45-32-15</div>
+    </user-card>
+
+    <user-card name="Jeff" avatar="../img/dog2.jpg">
+        <div slot="city">Kyiv</div>
+        <div slot="phone">45-32-15</div>
+    </user-card>
+    
+</body>
+</html>
